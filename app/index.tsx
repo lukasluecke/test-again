@@ -4,7 +4,7 @@ export default function Index() {
   return (
     <View style={styles.container}>
       <Image source={require("../assets/images/adaptive-icon.png")} style={styles.image} />
-      <Text style={styles.heading}>Your app starts here</Text>
+      <Text style={styles.heading}>Your app starts here with GitHub sync</Text>
       <Text style={styles.text}>In just a moment, you’ll see your app begin to take shape.</Text>
     </View>
   );
