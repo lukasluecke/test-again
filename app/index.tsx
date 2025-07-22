@@ -1,11 +1,12 @@
+
 import { Text, View, StyleSheet, Image } from "react-native";
 
 export default function Index() {
   return (
     <View style={styles.container}>
       <Image source={require("../assets/images/adaptive-icon.png")} style={styles.image} />
-      <Text style={styles.heading}>Your app starts here with GitHub sync again</Text>
-      <Text style={styles.text}>In just a moment, you’ll see your app begin to take shape.</Text>
+      <Text style={styles.heading}>Your bloom starts here</Text>
+      <Text style={styles.text}>In just a moment, you'll see your app begin to take shape.</Text>
     </View>
   );
 }
